@@ -8,6 +8,11 @@
     margin-bottom: 100px;
 }
 
+.description-product .star {
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
 .description-product > .item {
     font-size: 20px;
     margin-bottom: 28px;

@@ -12,18 +12,17 @@
      float: left;
  }
 
- .header-store > .search {
-     display: inline-block;
-     background-color: transparent;
-     color: #fff;
-     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-     font-size: 20px;
-     line-height: 24px;
-     width: 350px;
-     border: none;
-     border-bottom: 1px solid #fff;
-     margin-left: 365px;
-     padding: 10px;
+ .header-store .search {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: inherit;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px;
+    width: 358px;
+    margin-right: 65px;
  }
 
  .header-store > .navigation {

@@ -10,6 +10,7 @@
      font-family: Arial, Helvetica, sans-serif; 
      text-transform: uppercase;
      float: left;
+     cursor: pointer;
  }
 
  .header-store .search {

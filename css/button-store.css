@@ -12,6 +12,7 @@
     margin-right: 0px;
     text-decoration: none;
     border: none;
+    cursor: pointer;
 }
 
 .button-store.-second {
@@ -29,4 +30,5 @@
     border: none;
     color: inherit;
     text-decoration: inherit;
+    
 }

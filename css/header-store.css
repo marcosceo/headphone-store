@@ -12,10 +12,25 @@
      float: left;
  }
 
+ .header-store > .search {
+     display: inline-block;
+     background-color: transparent;
+     color: #fff;
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     font-size: 20px;
+     line-height: 24px;
+     width: 350px;
+     border: none;
+     border-bottom: 1px solid #fff;
+     margin-left: 365px;
+     padding: 10px;
+ }
+
  .header-store > .navigation {
     font-family: "SegoeUI", Arial, Helvetica, sans-serif;
     font-size: 21px;
     float: right;
+    padding-top: 10px;
  }
 
  .header-store .action {

@@ -16,10 +16,18 @@
     cursor: pointer;
 }
 
+.description-product > .item.-heart:hover {
+    transform: scale(1.1) translateX(-100%);
+}
+
 .description-product .star {
     margin-right: 10px;
     margin-bottom: 15px;
     cursor: pointer;
+}
+
+.description-product .star:hover {
+    transform: scale(1.2);
 }
 
 .description-product dd:nth-of-type(2) {

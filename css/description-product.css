@@ -8,6 +8,14 @@
     margin-bottom: 50px;
 }
 
+.description-product > .item.-heart {
+    position: absolute;
+    transform: translateX(-100%);
+    left: -47px;
+    top: 7px;
+    cursor: pointer;
+}
+
 .description-product .star {
     margin-right: 10px;
     margin-bottom: 15px;

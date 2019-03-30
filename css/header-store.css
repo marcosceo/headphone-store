@@ -62,4 +62,46 @@
      margin-right: 0px;
 }
 
+@media (max-width: 1235px) {
+    .header-store > .title {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header-store > .navigation {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1030px) {
+    .header-store {
+        padding-left: 30px;
+    }
+    .header-store .search {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-store .action {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-store {
+        padding-left: 16px;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .header-store > .navigation {
+        display: none;
+    }
+}
+
+
  

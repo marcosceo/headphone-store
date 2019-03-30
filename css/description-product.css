@@ -14,6 +14,7 @@
     left: -47px;
     top: 7px;
     cursor: pointer;
+    transition: transform 100ms linear;
 }
 
 .description-product > .item.-heart:hover {
@@ -24,6 +25,7 @@
     margin-right: 10px;
     margin-bottom: 15px;
     cursor: pointer;
+    transition: transform 100ms linear;
 }
 
 .description-product .star:hover {

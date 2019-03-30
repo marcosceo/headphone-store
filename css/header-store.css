@@ -3,6 +3,7 @@
     overflow: hidden;
     margin-bottom: 138px;
     padding-left: 60px;
+    vertical-align: bottom;
 }
 
 .header-store > .title {
@@ -24,6 +25,7 @@
     padding: 10px;
     width: 358px;
     margin-right: 65px;
+    vertical-align: bottom;
 }
 
 .header-store > .navigation {

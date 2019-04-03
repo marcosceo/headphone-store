@@ -17,6 +17,10 @@
     transition: transform 100ms linear;
 }
 
+.description-product > .item.-active {
+    background-color: #fff;
+}
+
 .description-product > .item.-heart:hover {
     transform: scale(1.1) translateX(-100%);
 }

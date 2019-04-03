@@ -3,6 +3,7 @@ const $cartAdd = window.document.querySelector(".button-store.-second");
 $cartAdd.addEventListener("click", addItem);
 
 function addItem() {
-    console.log("Adiciona item no carrinho.");
+    const $cart = window.document.querySelector(".action.-last");
+    $cart.innerHTML = "Carrinho(11)";
 }
 

@@ -70,3 +70,37 @@
     text-decoration: none;
 }
 
+@media(max-width: 1325px) {
+    .description-product > .item.-heart{ 
+        left: -10px;
+    }
+}
+
+@media(max-width: 1210px) {
+    .description-product {
+        width: 50%;
+        min-width: 600px;
+        margin: 0 auto 60px;
+    }
+
+    .description-product > .title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .description-product .star {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .description-product > .item.-number {
+        padding-top: 4px;
+    }
+}
+
+@media(max-width: 720px) {
+    .description-product {
+        width: 90%;
+        min-width: auto;
+    }
+}

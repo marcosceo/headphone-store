@@ -50,3 +50,17 @@
     text-decoration: inherit;
     
 }
+
+@media (max-width: 600px) {
+    .button-store,
+    .button-store.-second {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button-store.-second {
+        margin-bottom: 20px;
+    }
+}

@@ -1,7 +1,13 @@
-const $heart = window.document.querySelector(".-heart");
+const $heart = document.querySelector(".-heart");
+const $stars = document.querySelectorAll(".star");
 
-$heart.addEventListener("click", handleSelector);
+$heart.addEventListener("click", active);
 
-function handleSelector() {
-    $heart.classList.toggle("-active");
+$stars.forEach(function($star) {
+    $star.addEventListener("click", active);
+})
+
+function active() {
+    this.classList.toggle("-active");
 }
+

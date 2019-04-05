@@ -1,5 +1,5 @@
 let startValue = 10;
-const $cartAdd = window.document.querySelector(".-second");
+const $cartAdd = window.document.querySelector(".-addCart");
 
 $cartAdd.addEventListener("click", addItem);
 

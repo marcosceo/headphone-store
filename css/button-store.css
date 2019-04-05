@@ -27,7 +27,7 @@
     transform: scale(0.95);
 }
 
-.button-store.-second {
+.button-store.-addCart {
     background-color: transparent;    
     line-height: 56px;    
     border: 2px solid #fff;
@@ -35,8 +35,8 @@
     margin-right: 38px; 
 }
 
-.button-store.-second:hover,
-.button-store.-second:focus {
+.button-store.-addCart:hover,
+.button-store.-addCart:focus {
     background-color: #fff;
     color: #e24647;
 }
@@ -53,14 +53,14 @@
 
 @media (max-width: 600px) {
     .button-store,
-    .button-store.-second {
+    .button-store.-addCart {
         display: block;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .button-store.-second {
+    .button-store.-addCart {
         margin-bottom: 20px;
     }
 }

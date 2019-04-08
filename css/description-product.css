@@ -13,7 +13,6 @@
     transform: translateX(-100%);
     left: -47px;
     top: 7px;
-    cursor: pointer;
     transition: transform 100ms linear;
     width: 33px;
     height: 29px;
@@ -23,7 +22,6 @@
     margin-right: 10px;
     margin-bottom: 15px;
     cursor: pointer;
-    transition: transform 100ms linear;
 }
 
 .description-product .icon.-active {
@@ -86,12 +84,13 @@
 
 @media(max-width: 1325px) {
     .description-product > .item.-heart{ 
-        left: -10px;
+        left: -15px;
     }
 }
 
 @media(max-width: 1210px) {
     .description-product {
+        position: relative;
         width: 50%;
         min-width: 600px;
         margin: 0 auto 60px;
@@ -100,6 +99,12 @@
     .description-product > .title {
         font-size: 35px;
         text-align: center;
+    }
+
+    .description-product > .item.-heart{
+        position: static;
+        transform: none;
+        left: 0;
     }
 
     .description-product .icon {

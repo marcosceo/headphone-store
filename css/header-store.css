@@ -86,7 +86,18 @@
         padding-left: 30px;
     }
     .header-store .search {
-        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        color: #000;
+        transform: translateX(-88%);
+        transition: transform 200ms linear;
+    }
+
+    .header-store .search.-active {
+        transform: translateX(0);
+        transition: transform 200ms cubic-bezier(0,0,.96,1.29);
     }
 }
 

@@ -14,6 +14,14 @@
      cursor: pointer;
 }
 
+.header-store .form {
+    display: inline;
+}
+
+.header-store .form img {
+    display: none;
+}
+
 .header-store .search {
     background-color: transparent;
     border: none;
@@ -82,23 +90,38 @@
 }
 
 @media (max-width: 1030px) {
+
     .header-store {
         padding-left: 30px;
     }
-    .header-store .search {
+
+    .header-store form {
         position: absolute;
         top: 0;
         left: 0;
         background-color: #fff;
-        color: #000;
-        transform: translateX(-88%);
+        display: inline-block;
+        transform: translateX(-92%);
+        transition: transform 200ms linear;
+    }   
+
+    .header-store form.-active {
+        transform: translateX(0);
         transition: transform 200ms linear;
     }
-
-    .header-store .search.-active {
-        transform: translateX(0);
-        transition: transform 200ms cubic-bezier(0,0,.96,1.29);
+    
+    .header-store .form img {
+        display: inline-block;
+        cursor: pointer;
     }
+    
+    .header-store .search {
+        margin-right: 0;        
+        color: #000;
+        border: none;
+    }   
+
+    
 }
 
 @media (max-width: 600px) {

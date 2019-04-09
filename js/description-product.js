@@ -1,8 +1,6 @@
 const $heart = document.querySelector(".-heart");
 let $stars = document.querySelectorAll(".star");
 
-console.log($stars);
-
 $heart.addEventListener("click", active);
 
 for (let e = 0; e < $stars.length; e++) {

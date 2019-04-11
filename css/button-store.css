@@ -32,7 +32,7 @@
     line-height: 56px;    
     border: 2px solid #fff;
     width: 218px;   
-    margin-right: 38px; 
+     
 }
 
 .button-store.-addCart:hover,
@@ -51,9 +51,15 @@
     
 }
 
+@media (max-width: 1210px) {
+    .button-store.button-store.-addCart{
+        margin-right: 38px;
+    }
+}
+
 @media (max-width: 600px) {
     .button-store,
-    .button-store.-addCart {
+    .button-store.button-store.-addCart {
         display: block;
         width: 90%;
         margin-left: auto;
@@ -63,4 +69,5 @@
     .button-store.-addCart {
         margin-bottom: 20px;
     }
+    
 }
